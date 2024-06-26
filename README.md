@@ -1,16 +1,16 @@
 # i_am_kagari
 
-A new Flutter project.
+This is the first project I learned about Flutter.
 
-## Getting Started
+Flutter is a powerful language as it has the ability to use one single language to publish same app to different platforms.
 
-This project is a starting point for a Flutter application.
+The first thing I learned is that everything is made of "Widgets" in flutter.
 
-A few resources to get you started if this is your first Flutter project:
+This app implemnt the material design of goole, below are some sample codes I learned:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+void main{ runApp( $APP_NAME_or_CLASS_NAME ($ROOT_WIDGET) )}
+MaterialApp(home: $WIDGETS) A instance of Class MaterialApp, that spscifies the property named "home"
+Center(child: $WIDGETS) A object of widget class, that specidying the "child" Property, this child property also expect Widgets.
+Scaffold(appBar:$WIDGET,backgroundcolor:Colors.$SELECTEDCOLOR,body:$WIDGET,)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I learned that the structure of the flutter app is very similar to a html tree structure.
